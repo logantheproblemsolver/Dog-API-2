@@ -1,0 +1,26 @@
+<!doctype html>
+<html lng="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Random Dog Images</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="container"></body>
+        <h1>DOGS FOR DAYS</h1>
+        <h2>Do you want random dog(s) or a certain breed?</h2>
+        <p>You can choose how many random images you want or you can choose the type of dog breed!</p>
+        <form class="dogPicks">
+            <fieldset>
+                <input class="inputs" value="3" id="numberDogs" type="number" placeholder="3" min="1" max="50"> 
+                <input type="submit" class="submit" value="Submit"/>
+            </fieldset>
+        </form>
+        <section class="results hidden">
+            <h2>Look at this dog!</h2>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
+
